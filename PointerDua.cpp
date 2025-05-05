@@ -12,5 +12,7 @@ public:
 int main()
 {
     mahasiswa *mhs = new mahasiswa{1}; //Pointer Objet mhs
+    mhs->nim = 2;
+    mhs->Shownim();
    
 }
