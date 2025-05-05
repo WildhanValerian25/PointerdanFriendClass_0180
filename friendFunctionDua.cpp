@@ -9,3 +9,12 @@ public:
     void showNilaipelajarDua(pelajar *y);
 };
 
+class pelajar {
+private:
+    int nilai;
+
+public:
+    pelajar() { nilai = 100; }
+    friend class manusia; //  manusia diizinkan akses private
+};
+
