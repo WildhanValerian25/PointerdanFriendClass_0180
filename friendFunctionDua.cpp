@@ -26,4 +26,10 @@ void manusia::showNilaipelajarDua(pelajar *y) {
     cout << "Nilai pelajar (metode 2): " << y->nilai << endl;
 }
 
-
+int main() {
+    manusia budi;
+    pelajar pbudi;
+    budi.showNilaipelajar(&pbudi);       //  pakai pointer
+    budi.showNilaipelajarDua(&pbudi);    //  metode kedua
+    return 0;
+}
