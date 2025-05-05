@@ -18,3 +18,12 @@ public:
     friend class manusia; //  manusia diizinkan akses private
 };
 
+void manusia::showNilaipelajar(pelajar *x) {
+    cout << "Nilai pelajar: " << x->nilai << endl; //  akses dengan pointer
+}
+
+void manusia::showNilaipelajarDua(pelajar *y) {
+    cout << "Nilai pelajar (metode 2): " << y->nilai << endl;
+}
+
+
