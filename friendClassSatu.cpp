@@ -22,3 +22,19 @@ public:
     void displayAll(orang &a); // Parameter diubah dari pointer ke reference
 };
 
+// Implementasi method class orang
+void orang::setNama(string pNama) { // Perbaiki 'strung' jadi 'string'
+    nama = pNama;
+}
+
+// Implementasi method class siswa
+void siswa::setId(int pId) {
+    id = pId;
+}
+
+void siswa::displayAll(orang &a) { // Perbaiki parameter dan akses nama
+    cout << "ID: " << id << endl;
+    cout << "Nama: " << a.nama << endl;
+}
+
+
