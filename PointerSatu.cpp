@@ -8,3 +8,11 @@ class mahasiswa{
         cout << "No Induk = " << nim << endl;
     }
 };
+
+int main (){
+
+    mahasiswa mhs; //Object mhs
+    mhs.nim = 5;
+    mhs.shownim(); //Member Access Operator
+    
+   
