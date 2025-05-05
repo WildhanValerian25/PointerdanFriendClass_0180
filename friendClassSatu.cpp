@@ -37,4 +37,13 @@ void siswa::displayAll(orang &a) { // Perbaiki parameter dan akses nama
     cout << "Nama: " << a.nama << endl;
 }
 
+int main() {
+    orang joko;
+    joko.setNama("Joko Susilo");
 
+    siswa joko_siswa;
+    joko_siswa.setId(1);
+    joko_siswa.displayAll(joko);
+
+    return 0;
+}
