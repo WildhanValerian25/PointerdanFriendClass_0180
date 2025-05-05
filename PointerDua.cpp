@@ -15,5 +15,5 @@ int main()
     mhs->nim = 2;
     mhs->Shownim();
     delete mhs;
-   
+    return 0;
 }
